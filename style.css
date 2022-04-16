@@ -1,0 +1,27 @@
+body{margin: 0; padding: 0; font-size: 24px; font-family: Arial, Helvetica, sans-serif;}
+
+a{text-decoration: none; color: black;}
+
+.content{width: 100%; display: flex; }
+
+.left-content{width: 20%; background-color: #dadada; height: 1000px; }
+
+.right-content{width: 80%; background-color: #eaeaea; height: 1000px; }
+.nav-header {background-color: #ff4454; height: 80px;}
+.nav-links { float: left ;width: 80%; height: 80px;  margin-block: 0;}
+
+.nav-links li {float: left; list-style: none; margin: 14px 4px 0 4px; padding: 8px;} /*top, right, bottom and left*/
+
+.profilep {float: right;}
+
+.profilep img {margin-right: 50px; width: 50px; border-radius: 15px; border: 1px solid #bababa; margin-top: 14px;}
+
+.logo {width: 50%; padding: 20px 25% 30px 25%}
+
+.logo img {width: 100%;}
+
+.left-content a {margin: 15px;}
+
+#videos {float: left; width: 100%;}
+
+#videos iframe{float: left; }
